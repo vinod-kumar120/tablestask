@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+    <body>
+        <table align="center" border="2px" cellpadding="5px">
+            <tr>
+                <td>columu1</td>
+                <td>columu2</td>
+                <td>columu3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">row1 cell1</td>
+                <td>row1 cell2</td>
+                <td>row2 cell3</td>
+            </tr>
+            <tr>
+                <td>row2 cell2</td>
+                <td>row2 cell3</td>
+            </tr>
+            <tr>
+                <td colspan="3">row3 cell1</td>
+            </tr>
+        </table>
+        <hr>
+        <table align="center" border="2px" cellpadding="10px" cellspacing="0">
+            <caption>A test table with merged cells</caption>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">average</th>
+                <th rowspan="2">red eye</th>
+            </tr>
+            <tr>
+                <th>height</th>
+                <th>weight</th>
+            </tr>
+            <tr>
+                <td>male</td>
+                <td>1.9</td>
+                <th>0.003</th>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>female</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </table>
+        <hr>
+        <table align="center" border="2px" cellpadding="10px" cellspacing="0">
+            <caption>Web Technologies</caption>
+            <tr>
+                <th rowspan="1">category</th>
+                <th colspan="2">Technology</th>
+                <th colspan="15">description</th>
+            </tr>
+            <tr>
+                <th rowspan="4">frontend</th>
+            </tr>
+            <tr>
+                <td>html</td>
+                <td>5</td>
+                <td>standard markup language for creating web pages</td>
+            </tr>
+            <tr>
+                <td>css</td>
+                <td>3</td>
+                <td>cascading style sheets used for styling</td>
+            </tr>
+            <tr>
+                <td>javascript</td>
+                <td>ES6</td>
+                <td>scripting language used to create and control dynamic web pages</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Backend</th>
+            </tr>
+            <tr>
+                <td colspan="2">Node.js</td>
+                <td>javascript runtime built on chrome's vs javascript engine</td>
+            </tr>
+            <tr>
+                <td colspan="2">Django</td>
+                <td>High level python web frame that encourages rapid development and clean pragmatic design</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Database</th>
+            </tr>
+            <tr>
+                <td colspan="2">Mysql</td>
+                <td>relational database management system based on SQL</td>
+            </tr>
+            <tr>
+                <td colspan="2">MongoDB</td>
+                <td>Document oriented NoSQL database used for high volume data storage</td>
+            </tr>
+        </table>
+    </body>
+</html>
